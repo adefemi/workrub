@@ -18,11 +18,11 @@
   }
 }
 
-.home-heading-image .img-con-cover {
+.home-main-image .img-con-cover {
   position: relative;
 }
 
-.home-heading-image .img-con-cover::after {
+.home-main-image .img-con-cover::after {
   content: "that's me!!!";
   position: absolute;
   bottom: 20px;
@@ -38,7 +38,7 @@
   transition: 0.5s ease;
 }
 
-.home-heading-image .img-con-cover:hover::after {
+.home-main-image .img-con-cover:hover::after {
   visibility: visible;
   opacity: 1;
 }

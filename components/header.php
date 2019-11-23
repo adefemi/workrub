@@ -21,7 +21,7 @@
         <div class="nav-drawer" id="nav-drawer">
             <div class="nav-drawer-toggler"></div>
         </div>
-        <div style="margin-left:10px" class="nav-items" onclick="toggleLight()"><i data-feather="sun"></i></div>
+        <div style="margin-left:20px" class="nav-items" onclick="toggleLight()"><i data-feather="sun"></i></div>
         <!-- <div class="nav-items"><a href="/login">Log in</a></div> -->
     </div>
 </div>

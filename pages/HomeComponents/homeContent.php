@@ -4,7 +4,7 @@
             <h1 class="title"><?php echo($decoded_setting['header_main']); ?></h1>
             <h3 class="title2"><?php echo($decoded_setting['bullet']); ?></h3>
         </div>
-        <div class="section-2 home-heading-image">
+        <div class="section-2 home-heading-image home-main-image">
             <div class="img-con-cover">
                 <div class="img-con" style="background-image: url(<?php echo($decoded_setting['picture']); ?>)"></div>
             </div>

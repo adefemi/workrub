@@ -33,9 +33,9 @@
         for($j=0; $j<count($decoded_galleries); $j++){
     ?>
         <div class="section-2 home-heading-image">
-            <div class="img-con-cover">
+            <div class="img-con-cover" onclick='openImageViewer(<?php echo json_encode($decoded_galleries[$j]["cover_image"]) ?>, <?php echo json_encode($decoded_galleries[$j]["gallery_images"]) ?>)'>
                 <div class="img-con" style="background-image: url(<?php echo($decoded_galleries[$j]["cover_image"]); ?>)"></div>
-                <div class="overlay" onclick='openImageViewer(<?php echo json_encode($decoded_galleries[$j]["cover_image"]) ?>, <?php echo json_encode($decoded_galleries[$j]["gallery_images"]) ?>)'>
+                <div class="overlay" >
                     <?php echo($decoded_galleries[$j]["title"]); ?>
                 </div>
             </div>
