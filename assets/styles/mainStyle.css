@@ -398,15 +398,6 @@ body {
   font-weight: 400;
 }
 
-.skill-card {
-  padding: 10px 30px;
-  display: block;
-  background-color: #263249;
-  color: white;
-  border-radius: 4px;
-  margin: 3px 1px;
-}
-
 .context {
   line-height: 30px;
   color: #a1b0cd;
@@ -645,7 +636,7 @@ body {
 }
 
 .side-bar-mobile .inner {
-  background-color: black;
+  background-color: #010311 !important;
   width: 250px;
   bottom: 0;
   top: 0;

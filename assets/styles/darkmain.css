@@ -636,7 +636,7 @@ body {
 }
 
 .side-bar-mobile .inner {
-  background-color: black;
+  background-color: #e7e8f0 !important;
   width: 250px;
   bottom: 0;
   top: 0;
