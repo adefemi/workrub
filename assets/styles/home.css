@@ -55,6 +55,29 @@
           justify-content: center;
 }
 
+.home-skill-con .skill-con {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(120px, auto))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(120px, auto));
+  grid-gap: 5px;
+}
+
+.home-skill-con .skill-card {
+  padding: 10px 30px;
+  display: block;
+  background-color: #263249;
+  color: white;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
 .home-segment {
   margin-right: 80px;
   border-top: 2px solid #1d2738;

@@ -44,6 +44,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .skill-con {
+    width: 100%;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, auto));
+    grid-gap: 5px;
+  }
+
+  .skill-card {
+    padding: 10px 30px;
+    display: block;
+    background-color: darken($main_white, 60%);
+    color: lighten($main_white, 60%);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 }
 
 .home-segment {
