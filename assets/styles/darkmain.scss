@@ -532,7 +532,7 @@ body {
   transform: translateX(-100%);
 
   .inner {
-    background-color: black;
+    background-color: $primary_color;
     width: 250px;
     bottom: 0;
     top: 0;
