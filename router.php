@@ -18,31 +18,29 @@
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
-    case '/' :
+    case '':
+    case $GLOBALS['base_url'] :
         require __DIR__ . '/pages/home.php';
         break;
-    case '' :
-        require __DIR__ . '/pages/home.php';
-        break;
-    case '/projects' :
+    case $GLOBALS['base_url'].'projects' :
         require __DIR__ . '/pages/projects.php';
         break;        
-    case '/about-us' :
+    case $GLOBALS['base_url'].'about-us' :
         require __DIR__ . '/pages/about.php';
         break;        
-    case '/career' :
+    case $GLOBALS['base_url'].'career' :
         require __DIR__ . '/pages/career.php';
         break;        
-    case '/social-impact' :
+    case $GLOBALS['base_url'].'social-impact' :
         require __DIR__ . '/pages/responsibilities.php';
         break;
-    case '/resource' :
+    case $GLOBALS['base_url'].'resource' :
         require __DIR__ . '/pages/resources.php';
         break;
-    case '/functions' :
+    case $GLOBALS['base_url'].'functions' :
         require __DIR__ . '/pages/function.php';
         break;
-    case '/template' :
+    case $GLOBALS['base_url'].'template' :
         require __DIR__ . '/pages/template.php';
         break;
     default:

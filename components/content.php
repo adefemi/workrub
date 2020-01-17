@@ -6,31 +6,29 @@ $request = $_SERVER['REQUEST_URI'];
     <div class="layout-inner">
         <?php
             switch ($request) {
-                case '/' :
+                case '':
+                case $GLOBALS['base_url'] :
                     require_once "pages/HomeComponents/homeContent.php";
                     break;
-                case '' :
-                    require_once "pages/HomeComponents/homeContent.php";
-                    break;
-                case '/projects' :
+                case $GLOBALS['base_url'].'projects' :
                     require_once "pages/ProjectComponents/projectContent.php";
                     break;
-                case '/about-us' :
+                case $GLOBALS['base_url'].'about-us' :
                     require_once "pages/AboutComponents/aboutContent.php";
                     break;
-                case '/career' :
+                case $GLOBALS['base_url'].'career' :
                     require_once "pages/CareerComponents/careerContent.php";
                     break;
-                case '/social-impact' :
+                case $GLOBALS['base_url'].'social-impact' :
                     require_once "pages/ResponsibilitiesComponents/responsibilitiesContent.php";
                     break;
-                case '/resource' :
+                case $GLOBALS['base_url'].'resource' :
                     require_once "pages/ResourceComponents/resourceContent.php";
                     break;
-                case '/functions' :
+                case $GLOBALS['base_url'].'functions' :
                     require_once "pages/FunctionComponents/functionContent.php";
                     break;
-                case '/template' :
+                case $GLOBALS['base_url'].'template' :
                     require_once "pages/TemplateComponents/templateContent.php";
                     break;
                 default:

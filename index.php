@@ -22,7 +22,8 @@
 	$GLOBALS["impact"] = $GLOBALS["base_api"] . "/impacts";
 	$GLOBALS["impact_content"] = $GLOBALS["base_api"] . "/impact-contents";
 
-	include_once("router.php")
 
-	
+	$GLOBALS['base_url'] = "/demo/";
+
+	include_once("router.php")
 ?>
