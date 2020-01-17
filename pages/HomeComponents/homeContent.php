@@ -8,7 +8,7 @@
         <div class="cv-inner">
             <h2>Drop your CVs</h2>
             <br>
-            <a href="/career">
+            <a href="<?php echo $GLOBALS['base_url'].'career'?>">
                 <button class="primary outline inverse">
                     Apply Now
                 </button>

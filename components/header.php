@@ -1,9 +1,9 @@
 <div class="container">
     <div class="padding-top-60"></div>
     <div class="header-main">
-        <a href="/"><div>
+        <a href="<?php echo $GLOBALS['base_url']?>"><div>
             <div class="logo">
-                <img src="/assets/images/png2.png" alt="">
+                <img src="<?php echo $GLOBALS['base_url']."assets/images/png2.png"?>" alt="">
             </div>
         </div></a>
         <div class="nav-right desktop">

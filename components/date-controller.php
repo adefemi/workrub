@@ -1,9 +1,9 @@
-<link href='/assets/scripts/packages/core/main.css' rel='stylesheet' />
-<link href='/assets/scripts/packages/daygrid/main.css' rel='stylesheet' />
+<link href='/demo/assets/scripts/packages/core/main.css' rel='stylesheet' />
+<link href='/demo/assets/scripts/packages/daygrid/main.css' rel='stylesheet' />
 
-<script src='/assets/scripts/packages/core/main.js'></script>
-<script src='/assets/scripts/packages/daygrid/main.js'></script>
-<script src='/assets/scripts/packages/interaction/main.js'></script>
+<script src='/demo/assets/scripts/packages/core/main.js'></script>
+<script src='/demo/assets/scripts/packages/daygrid/main.js'></script>
+<script src='/demo/assets/scripts/packages/interaction/main.js'></script>
 
 <div class="zone-label">
     Time Zone: GMT+1

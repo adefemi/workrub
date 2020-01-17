@@ -8,7 +8,7 @@
     </div>
     <br><br>
     <div class="resource-links">
-        <a href="/resource"><li class="<?php 
+        <a href="<?php echo $GLOBALS['base_url'].'resource'?>"><li class="<?php
             if(!isset($slug)) echo "active";
         ?>">All Posts</li></a>
         <?php 

@@ -48,14 +48,14 @@
             <br><br> -->
             <div class="resource-links single">
                 <h4>Categories</h4>
-                <a href="/career"><li class="<?php 
+                <a href="<?php echo $GLOBALS['base_url'].'career'?>"><li class="<?php
                     if(!isset($slug)) echo "active";
                 ?>">All Openings</li></a>
                 <?php 
                 for($j=0; $j<count($decoded_opening_category_data); $j++){
                 ?>
 
-                    <a href="<?php echo "/career?category=".$decoded_opening_category_data[$j]["slug"] ?>">
+                    <a href="<?php echo $GLOBALS['base_url']."career?category=".$decoded_opening_category_data[$j]["slug"] ?>">
                         <li class="<?php 
                     if($slug == $decoded_opening_category_data[$j]["slug"]) echo "active";
                 ?>"><?php echo $decoded_opening_category_data[$j]["title"] ?></li>

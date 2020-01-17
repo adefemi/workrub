@@ -49,7 +49,7 @@
         <br>
         <br>
         <div class="center-content">
-            <a href="/resource">
+            <a href="<?php echo $GLOBALS['base_url'].'resource'?>">
                 <button class="primary">
                     Visit our blog
                 </button>

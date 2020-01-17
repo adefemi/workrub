@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a18b99d-1338-4328-a85c-cb4af80622c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/bootstrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/bootstrap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/core/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/daygrid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/daygrid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/google-calendar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/google-calendar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/interaction/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/interaction/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/luxon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/luxon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/moment-timezone/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/moment-timezone/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/moment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/moment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/rrule/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/rrule/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/scripts/packages/timegrid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/scripts/packages/timegrid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/date-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../components/date-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../components/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/navlinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/../components/navlinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/404Components/404Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/404Components/404Content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/CareerComponents/careerContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/CareerComponents/careerContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/HomeComponents/homeBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/HomeComponents/homeBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/HomeComponents/homeContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/HomeComponents/homeContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/HomeComponents/homeTop.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/HomeComponents/homeTop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/ResourceComponents/resourceContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/ResourceComponents/resourceContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/ResourceComponents/singleResourceContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/ResourceComponents/singleResourceContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/book.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/career.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/career.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/resources.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/resources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/responsibilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/responsibilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/singleCareer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/singleCareer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/singleResources.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/singleResources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../router.php" beforeDir="false" afterPath="$PROJECT_DIR$/../router.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/../composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VmPQQKhTqZR44KeIv54L5zDMc3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pages" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$PROJECT_DIR$/../demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../pages" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a18b99d-1338-4328-a85c-cb4af80622c7" name="Default Changelist" comment="" />
+      <created>1577855283107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577855283107</updated>
+      <workItem from="1577855297210" duration="180000" />
+      <workItem from="1578091136797" duration="24000" />
+      <workItem from="1578635594972" duration="52000" />
+      <workItem from="1578635662458" duration="12473000" />
+      <workItem from="1578747971260" duration="15030000" />
+      <workItem from="1578928505950" duration="416000" />
+      <workItem from="1579113015428" duration="17780000" />
+      <workItem from="1579249677903" duration="4252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="563" y="316" width="785" height="666" key="EditFileWatcherDialog" timestamp="1578639211582">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="563" y="316" width="785" height="666" key="EditFileWatcherDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578639211582" />
+    <state x="743" y="298" width="426" height="486" key="FileChooserDialogImpl" timestamp="1579169746056">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="298" width="426" height="486" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579169746056" />
+    <state x="464" y="175" width="992" height="732" key="SettingsEditor" timestamp="1578639187292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="464" y="175" width="992" height="732" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578639187292" />
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1579249696108">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578748205082" />
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579249696108" />
+    <state x="626" y="120" width="812" height="840" key="find.popup" timestamp="1579253947384">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="626" y="120" width="667" height="840" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578763518572" />
+    <state x="626" y="120" width="812" height="840" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1579253947384" />
+  </component>
+</project>

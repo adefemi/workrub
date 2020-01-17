@@ -13,7 +13,7 @@
    <div class="container flex justify-between">
         <div>
             <div class="logo">
-            <img src="/assets/images/png2.png" alt="">
+            <img src="<?php echo $GLOBALS['base_url']."assets/images/png2.png"?>" alt="">
             </div>
             <br>
             <div class="social-icons">

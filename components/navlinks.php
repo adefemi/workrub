@@ -35,10 +35,10 @@
     }
 ?>
 
-<li class="<?php if($active_link == 'about') echo 'active'?>"><a href="/about-us">About Us</a></li>
+<li class="<?php if($active_link == 'about') echo 'active'?>"><a href="<?php echo $GLOBALS['base_url'].'about-us'?>">About Us</a></li>
 <li class="<?php if($active_link == 'functions') echo 'active'?>">
     <div class="flex align-center justify-center">
-        <a href="/functions">Functions</a> &nbsp;
+        <a href="<?php echo $GLOBALS['base_url'].'functions'?>">Functions</a> &nbsp;
         <div class="mobile" onclick="toggler(1)"><i  data-feather="chevron-down"></i></div>
     </div>
     <?php if(count($decoded_function_drop_data) > 0){?>
@@ -58,7 +58,7 @@
 </li>
 <li class="<?php if($active_link == 'resource') echo 'active'?>">
     <div class="flex align-center justify-center">
-        <a href="/resource">Resources</a>&nbsp;
+        <a href="<?php echo $GLOBALS['base_url'].'resource'?>">Resources</a>&nbsp;
         <div class="mobile" onclick="toggler(2)"><i data-feather="chevron-down"></i></div>
     </div>
     <?php if(count($decoded_blog_drop_data) > 0){?>
@@ -76,4 +76,4 @@
     <?php }?>
 
 </li>
-<li class="<?php if($active_link == 'social') echo 'active'?>"><a href="/social-impact">Social Impact</a></li>
+<li class="<?php if($active_link == 'social') echo 'active'?>"><a href="<?php echo $GLOBALS['base_url'].'social-impact'?>">Social Impact</a></li>
