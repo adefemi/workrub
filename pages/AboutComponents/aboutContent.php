@@ -82,7 +82,7 @@
                 for($j=0; $j<count($decoded_portfolio_data); $j++){
             ?>
                 <div class="firm-item">
-                    <div class="img-con" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_portfolio_data[$j]["icon"]["url"] ?>')"></div>
+                    <div class="img-con" style="background-image: url('<?php echo $decoded_portfolio_data[$j]["icon"]["url"] ?>')"></div>
                 </div>
 
             <?php } ?>

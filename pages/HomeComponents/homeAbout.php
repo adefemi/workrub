@@ -12,7 +12,7 @@
             ?>
 
                 <div class="about-item">
-                    <div class="img-con" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_home_content_data[$j]["cover"]["url"] ?>')"></div>
+                    <div class="img-con" style="background-image: url('<?php echo $decoded_home_content_data[$j]["cover"]["url"] ?>')"></div>
                     <div class="about-heading">
                         <?php echo $decoded_home_content_data[$j]["title"] ?>
                     </div>

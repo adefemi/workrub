@@ -13,7 +13,7 @@
                 ?>
                     <div class="function-item">
                         <div>
-                            <div class="img-con" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_function_data[$j]["cover"]["url"] ?>')"></div>
+                            <div class="img-con" style="background-image: url('<?php echo $decoded_function_data[$j]["cover"]["url"] ?>')"></div>
                             <div class="function-heading">
                                 <?php echo $decoded_function_data[$j]["title"] ?>
                             </div>

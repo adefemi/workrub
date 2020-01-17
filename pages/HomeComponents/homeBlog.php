@@ -33,7 +33,7 @@
                     for($j=0; $j<count($decoded_home_blog_data); $j++){
                     ?>
                         <div class="blog-item">
-                            <img src="<?php echo $GLOBALS["base_api"].$decoded_home_blog_data[$j]["cover"]["url"] ?>" alt="image-1">
+                            <img src="<?php echo $decoded_home_blog_data[$j]["cover"]["url"] ?>" alt="image-1">
                             <div class="blog-heading">
                                 <?php echo $decoded_home_blog_data[$j]["title"] ?>
                             </div>

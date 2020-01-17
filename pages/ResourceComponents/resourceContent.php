@@ -39,7 +39,7 @@
                 if(isset($decoded_main_blog_data)){
             ?>
             <div class="resource-card">
-                <div class="cover" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_main_blog_data["cover"]["url"] ?>')"></div>
+                <div class="cover" style="background-image: url('<?php echo $decoded_main_blog_data["cover"]["url"] ?>')"></div>
                 <div class="card-content">
                     <div class="res-title">
                         <?php echo $decoded_main_blog_data["title"] ?>
@@ -74,7 +74,7 @@
                 ?>
 
                     <div class="resource-card sub">
-                        <div class="cover" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_blog_data[$j]["cover"]["url"] ?>')"></div>
+                        <div class="cover" style="background-image: url('<?php echo $decoded_blog_data[$j]["cover"]["url"] ?>')"></div>
                         <div class="card-content">
                             <div class="res-title">
                                 <?php echo $decoded_blog_data[$j]["title"] ?>

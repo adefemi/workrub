@@ -10,7 +10,7 @@
     <div class="resource-container single">
         <div class="resource-main">
             <div class="resource-card single">
-                <div class="cover" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_blog_data["cover"]["url"] ?>')"></div>
+                <div class="cover" style="background-image: url('<?php echo $decoded_blog_data["cover"]["url"] ?>')"></div>
                 <div class="card-content">
                     <div class="res-title">
                         <?php echo $decoded_blog_data["title"] ?>
@@ -38,7 +38,7 @@
                 ?>
 
                     <div class="resource-card small">
-                        <div class="cover" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_recent_blog_data[$j]["cover"]["url"] ?>')"></div>
+                        <div class="cover" style="background-image: url('<?php echo $decoded_recent_blog_data[$j]["cover"]["url"] ?>')"></div>
                         <div class="card-content">
                             <div class="res-title">
                                 <?php echo $decoded_recent_blog_data[$j]["title"] ?>
