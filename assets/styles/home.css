@@ -1,19 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
 .home-heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 @media screen and (max-width: 600px) {
   .home-heading .title,
-  .home-heading .title2 {
+.home-heading .title2 {
     text-align: center !important;
   }
 }
@@ -21,81 +14,63 @@
 .home-main-image .img-con-cover {
   position: relative;
 }
-
 .home-main-image .img-con-cover::after {
   content: "that's me!!!";
   position: absolute;
   bottom: 20px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   padding: 5px 20px;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-
 .home-main-image .img-con-cover:hover::after {
   visibility: visible;
   opacity: 1;
 }
 
 .home-skill-con {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .home-skill-con .skill-con {
   width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -ms-grid;
+  flex: 1;
   display: grid;
-  -ms-grid-columns: (minmax(120px, auto))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(120px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(120px, auto));
   grid-gap: 5px;
 }
-
 .home-skill-con .skill-card {
   padding: 10px 30px;
   display: block;
-  background-color: #263249;
+  background-color: #666666;
   color: white;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
 }
 
 .home-segment {
   margin-right: 80px;
-  border-top: 2px solid #1d2738;
-  border-bottom: 2px solid #1d2738;
+  border-top: 2px solid #595959;
+  border-bottom: 2px solid #595959;
   padding: 20px 0;
   margin-bottom: 50px;
 }
-
 @media screen and (max-width: 600px) {
   .home-segment {
     margin-right: 40px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .home-segment {
     margin-right: 20px;
     margin-left: 20px;
   }
 }
+
 /*# sourceMappingURL=home.css.map */

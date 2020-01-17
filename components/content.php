@@ -2,26 +2,9 @@
 $request = $_SERVER['REQUEST_URI'];
 ?>
 
-<div class="content-main">
-    <div class="socials-main mobile-main">
-        <?php require_once "components/sociallinks.php" ?>
-    </div>
-
-    <div class="side-bar-mobile" id="drawal"> 
-        <div class="inner">
-            <ul class="nav-bar">
-                <?php require_once "components/navlinks.php" ?>
-            </ul>
-        </div>
-        <div class="overlay" id="overlay_toggle"></div>
-    </div>
-
-    <div class="safe-space nav-space">
-        <ul class="nav-bar mobile-1024">
-            <?php require "components/navlinks.php" ?>
-        </ul>
-        <div class="content-field home-1024 home-mobile-main">
-            <?php
+<div class="layout-main">
+    <div class="layout-inner">
+        <?php
             switch ($request) {
                 case '/' :
                     require_once "pages/HomeComponents/homeContent.php";
@@ -32,24 +15,43 @@ $request = $_SERVER['REQUEST_URI'];
                 case '/projects' :
                     require_once "pages/ProjectComponents/projectContent.php";
                     break;
-                case '/login' :
-                    require_once "pages/LoginComponents/loginContent.php";
+                case '/about-us' :
+                    require_once "pages/AboutComponents/aboutContent.php";
                     break;
-                case '/blog' :
-                    require_once "pages/BlogComponents/BlogContent.php";
+                case '/career' :
+                    require_once "pages/CareerComponents/careerContent.php";
                     break;
-                case '/store' :
-                    require_once "pages/StoreComponents/StoreContent.php";
+                case '/social-impact' :
+                    require_once "pages/ResponsibilitiesComponents/responsibilitiesContent.php";
                     break;
-                case '/register' :
-                    require_once "pages/RegisterComponents/registerContent.php";
+                case '/resource' :
+                    require_once "pages/ResourceComponents/resourceContent.php";
                     break;
-                case '/gallery' :
-                    require_once "pages/GalleryComponents/galleryContent.php";
+                case '/functions' :
+                    require_once "pages/FunctionComponents/functionContent.php";
+                    break;
+                case '/template' :
+                    require_once "pages/TemplateComponents/templateContent.php";
                     break;
                 default:
-                    if(preg_match_all('/projects\?[a-z]+=[0-9]*/', $request)){
-                        require_once "pages/ProjectComponents/projectContent.php";
+                    if(preg_match_all('/resource\/[a-z0-9-_+]*/', $request)){
+                        require_once "pages/ResourceComponents/singleResourceContent.php";
+                        break;
+                    }
+                    else if(preg_match_all('/resource[a-z0-9-_+?=&]*/', $request)){
+                        require_once 'pages/ResourceComponents/resourceContent.php';
+                        break;
+                    }
+                    else if(preg_match_all('/career\/[a-z0-9-_+]*/', $request)){
+                        require_once 'pages/CareerComponents/singleCareerContent.php';
+                        break;
+                    }
+                    else if(preg_match_all('/career[a-z0-9-_+?=&]*/', $request)){
+                        require_once 'pages/CareerComponents/careerContent.php';
+                        break;
+                    }
+                    else if(preg_match_all('/schedule\/[a-z0-9-_+]*/', $request)){
+                        require_once 'pages/BookComponents/bookContent.php';
                         break;
                     }
                     else{
@@ -57,14 +59,6 @@ $request = $_SERVER['REQUEST_URI'];
                         break;
                     }
             }
-            ?>
-        </div>
+        ?>      
     </div>
-    <div class="socials-main-mobile desktop-main">
-        <?php require "components/sociallinks.php" ?>
-        <div class="drawal">
-                >
-        </div>
-    </div>
-    <div></div>
 </div>

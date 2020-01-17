@@ -1,27 +1,30 @@
-<?php 
-
-    // get setting data
-    $ch = curl_init($GLOBALS["user_api"]."/setting");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    $data = curl_exec($ch);
-    curl_close($ch);
-
-    $decoded_setting = json_decode($data, true)[0];
-?>
-
-<div class="header-main">
-    <div class="brand"><a href="/"><img width="40" src="<?php echo($decoded_setting["logo"]) ?>" alt=""></a></div>
-    <div class="safe-space">
-        <div class="title"><a href="/"><?php echo($decoded_setting["site_title"]) ?></a></div>
-        <!-- <div class="nav-items">search</div>
-        <div class="nav-items">subscribe</div> -->
-    </div>
-    <div class="flex align-center heading-right">
-        <div class="nav-drawer" id="nav-drawer">
-            <div class="nav-drawer-toggler"></div>
+<div class="container">
+    <div class="padding-top-60"></div>
+    <div class="header-main">
+        <a href="/"><div>
+            <div class="logo">
+                <img src="/assets/images/png2.png" alt="">
+            </div>
+        </div></a>
+        <div class="nav-right desktop">
+            <?php require "components/navlinks.php" ?>
         </div>
-        <div style="margin-left:20px" class="nav-items" onclick="toggleLight()"><i data-feather="sun"></i></div>
-        <!-- <div class="nav-items"><a href="/login">Log in</a></div> -->
+        <div class="nav-right mobile">
+            <div id="nav-icon2">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="side-bar-links mobile" id="drawer">
+    <div class="overlay" id="overlay-toggle"></div>
+    <div class="drawer">
+        <?php require "components/navlinks.php" ?>
     </div>
 </div>
