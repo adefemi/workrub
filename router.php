@@ -79,7 +79,7 @@ switch ($request) {
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
-<script src="/demo/assets/scripts/logics.js"></script>
+<script src="<?php echo $GLOBALS['base_url'].'/assets/scripts/logics.js'?>"></script>
 <script>
     feather.replace()
 </script>
