@@ -14,7 +14,7 @@
   </div>
 <?php
 
-$dir = "";
+$dir = __DIR__;
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
@@ -22,9 +22,6 @@ switch ($request) {
     case $GLOBALS['base_url'] :
         require $dir . '/pages/home.php';
         break;
-    case $GLOBALS['base_url'].'projects' :
-        require $dir . '/pages/projects.php';
-        break;        
     case $GLOBALS['base_url'].'about-us' :
         require $dir . '/pages/about.php';
         break;        
