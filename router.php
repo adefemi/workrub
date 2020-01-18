@@ -14,59 +14,59 @@
   </div>
 <?php
 
-
+$dir = "";
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '':
     case $GLOBALS['base_url'] :
-        require __DIR__ . '/pages/home.php';
+        require $dir . '/pages/home.php';
         break;
     case $GLOBALS['base_url'].'projects' :
-        require __DIR__ . '/pages/projects.php';
+        require $dir . '/pages/projects.php';
         break;        
     case $GLOBALS['base_url'].'about-us' :
-        require __DIR__ . '/pages/about.php';
+        require $dir . '/pages/about.php';
         break;        
     case $GLOBALS['base_url'].'career' :
-        require __DIR__ . '/pages/career.php';
+        require $dir . '/pages/career.php';
         break;        
     case $GLOBALS['base_url'].'social-impact' :
-        require __DIR__ . '/pages/responsibilities.php';
+        require $dir . '/pages/responsibilities.php';
         break;
     case $GLOBALS['base_url'].'resource' :
-        require __DIR__ . '/pages/resources.php';
+        require $dir . '/pages/resources.php';
         break;
     case $GLOBALS['base_url'].'functions' :
-        require __DIR__ . '/pages/function.php';
+        require $dir . '/pages/function.php';
         break;
     case $GLOBALS['base_url'].'template' :
-        require __DIR__ . '/pages/template.php';
+        require $dir . '/pages/template.php';
         break;
     default:
         if(preg_match_all('/resource\/[a-z0-9-_+]*/', $request)){
-            require __DIR__ . '/pages/singleResources.php';
+            require $dir . '/pages/singleResources.php';
             break;
         }
         else if(preg_match_all('/resource[a-z0-9-_+?=&]*/', $request)){
-            require __DIR__ . '/pages/resources.php';
+            require $dir . '/pages/resources.php';
             break;
         }
         else if(preg_match_all('/career\/[a-z0-9-_+]*/', $request)){
-            require __DIR__ . '/pages/singleCareer.php';
+            require $dir . '/pages/singleCareer.php';
             break;
         }
         
         else if(preg_match_all('/career[a-z0-9-_+?=&]*/', $request)){
-            require __DIR__ . '/pages/career.php';
+            require $dir . '/pages/career.php';
             break;
         }
         else if(preg_match_all('/schedule\/[a-z0-9-_+]*/', $request)){
-            require __DIR__ . '/pages/book.php';
+            require $dir . '/pages/book.php';
             break;
         }
         else{
-            require __DIR__ . '/pages/404.php';
+            require $dir . '/pages/404.php';
             break;
         }
 }
