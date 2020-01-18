@@ -1,4 +1,4 @@
-const BASE_API = "http://panel.sanimara.com:1337";
+const BASE_API = "http://206.189.23.13:1337";
 const CONTACT_FORM_URL = BASE_API + "/contact-forms";
 const APPLICATION_FORM_URL = BASE_API + "/applications";
 const BOOKING_FORM_URL = BASE_API + "/bookings";
