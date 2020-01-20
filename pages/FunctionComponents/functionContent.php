@@ -36,11 +36,13 @@
             <?php } ?>
        
         <div class="function-item">
-            <h4>Don't see what you're looking for?</h4>
-            <br>
-            <p>
-                <a href="<?php echo $decoded_data["cannot_find_contact"] ?>">Contact us</a> <?php echo $decoded_data["can_find_description"] ?>
-            </p>
+            <div>
+                <h4>Don't see what you're looking for?</h4>
+                <br>
+                <p>
+                    <a href="<?php echo $decoded_data["cannot_find_contact"] ?>">Contact us</a> <?php echo $decoded_data["can_find_description"] ?>
+                </p>
+            </div>
         </div>
     </div>
     <br><br><br>

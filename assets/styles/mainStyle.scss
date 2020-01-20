@@ -398,6 +398,7 @@ button, .button2 {
   font-weight: 500;
   outline: none !important;
   transition: .3s ease;
+  border: 2px solid $primary-color;
 
   &.hidden{
     visibility: hidden;
@@ -410,7 +411,7 @@ button, .button2 {
   }
 
   &.outline {
-    border: 2px solid $primary-color;
+
     background-color: transparent;
     color: $primary-color;
   }
@@ -1272,6 +1273,7 @@ a {
   }
 }
 
+
 .res-mid {
   padding: 4rem 20px;
   margin: 0 auto;
@@ -1290,7 +1292,7 @@ a {
     margin-bottom: 20px;
     div {
       font-size: 20px;
-      font-weight: 300px;
+      font-weight: 300;
       color: darken(white, 50%);
       &:nth-child(2) {
         margin-left: 2rem;
@@ -1300,6 +1302,11 @@ a {
       width: 40px;
     }
   }
+}
+
+.res-max{
+  max-width: 1000px;
+  line-height: 30px;
 }
 
 .mobile, .mobile2 {
@@ -1745,4 +1752,28 @@ a {
 }
 .career-con {
   min-height: 70vh;
+}
+
+.faq-con{
+  box-shadow: 0 5px 20px rgba(black, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+  .faq-quest{
+    padding: 20px;
+    background: white;
+  }
+  .faq-ans{
+    padding: 20px;
+  }
+}
+
+.drop-faq{
+  cursor: pointer;
+  transition: .3s ease;
+
+  &.open{
+    transform: rotateZ(180deg);
+  }
 }

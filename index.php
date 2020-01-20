@@ -1,5 +1,5 @@
 <?php 
-	$GLOBALS["base_api"] = "http://206.189.23.13:1337";
+	$GLOBALS["base_api"] = "http://localhost:1337";
 	$GLOBALS["contact_info"] = $GLOBALS["base_api"] . "/contact-infos";
 	$GLOBALS["home"] = $GLOBALS["base_api"] . "/homes";
 	$GLOBALS["home_content"] = $GLOBALS["base_api"] . "/home-contents";
@@ -21,6 +21,10 @@
 	$GLOBALS["blog_comment"] = $GLOBALS["base_api"] . "/blog-comments";
 	$GLOBALS["impact"] = $GLOBALS["base_api"] . "/impacts";
 	$GLOBALS["impact_content"] = $GLOBALS["base_api"] . "/impact-contents";
+	$GLOBALS["faq"] = $GLOBALS["base_api"] . "/faqs";
+	$GLOBALS["term"] = $GLOBALS["base_api"] . "/terms";
+	$GLOBALS["privacy"] = $GLOBALS["base_api"] . "/privacies";
+	$GLOBALS["quiz"] = $GLOBALS["base_api"] . "/quizzes";
 
 
 	$GLOBALS['base_url'] = "/";

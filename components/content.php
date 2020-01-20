@@ -28,6 +28,18 @@ $request = $_SERVER['REQUEST_URI'];
                 case $GLOBALS['base_url'].'functions' :
                     require_once "pages/FunctionComponents/functionContent.php";
                     break;
+                case $GLOBALS['base_url'].'faq' :
+                    require_once "pages/FaqComponents/faqContent.php";
+                    break;
+                case $GLOBALS['base_url'].'terms' :
+                    require_once "pages/TermsComponents/termsContent.php";
+                    break;
+                case $GLOBALS['base_url'].'privacy' :
+                    require_once "pages/PrivacyComponents/privacyContent.php";
+                    break;
+                case $GLOBALS['base_url'].'quiz' :
+                    require_once "pages/QuizesComponents/quizesContent.php";
+                    break;
                 case $GLOBALS['base_url'].'template' :
                     require_once "pages/TemplateComponents/templateContent.php";
                     break;

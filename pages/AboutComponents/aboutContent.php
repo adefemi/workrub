@@ -62,74 +62,83 @@
     <br><br><br><br>
 </div>
 
-<div class="portfolio-container">
-    <br><br>
-    <div class="center-content">
-        <div class="contact-heading">
-            Portfolio
-        </div>
-        <p class="sub-heading">We're proud to have collaborated with these firms</p>
-    </div>
-    <br>
-    <br>
-    <?php
-        if(count($decoded_portfolio_data) < 1){
-            echo "<center><div class='not-available'>No portfolio found!</div></center>";
-        }
+<?php
+if(count($decoded_portfolio_data) > 0){
     ?>
-    <div class="firm-wrapper">
-         <?php 
-                for($j=0; $j<count($decoded_portfolio_data); $j++){
-            ?>
+    <div class="portfolio-container">
+        <br><br>
+        <div class="center-content">
+            <div class="contact-heading">
+                Portfolio
+            </div>
+            <p class="sub-heading">We're proud to have collaborated with these firms</p>
+        </div>
+        <br>
+        <br>
+
+        <div class="firm-wrapper">
+            <?php
+            for($j=0; $j<count($decoded_portfolio_data); $j++){
+                ?>
                 <div class="firm-item">
                     <div class="img-con" style="background-image: url('<?php echo $decoded_portfolio_data[$j]["icon"]["url"] ?>')"></div>
                 </div>
 
             <?php } ?>
+        </div>
+        <br><br><br><br>
     </div>
-    <br><br><br><br>
-</div>
+    <?php
+}
+?>
 
-<div class="light-bg">
+
+
+<?php
+if(count($decoded_client_data) > 0){
+    ?>
+    <div class="light-bg">
+        <div class="container">
+            <div class="why-us">
+                <br><br><br>
+                <h2>Why our Clients love us</h2>
+                <br><br><br>
+                <p>||</p>
+
+                <div id="team-quotes">
+
+                </div>
+
+                <br>
+                <div class="navlist" id="navlist">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+    <?php
+}
+?>
+
+
+<?php
+if(count($decoded_team_data) > 0){
+    ?>
     <div class="container">
-        <div class="why-us">
+        <div class="our-team">
             <br><br><br>
-            <h2>Why our Clients love us</h2>
-            <br><br><br>
-            <p>||</p>
-
-            <div id="team-quotes">
-
+            <div class="center-content">
+                <h2>Our Team</h2>
             </div>
-
-            <br>
-            <div class="navlist" id="navlist">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </div>
-            <br><br><br>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="our-team">
-        <br><br><br>
-        <div class="center-content">
-            <h2>Our Team</h2>
-        </div>
-        <br><br>
-        <?php
-        if(count($decoded_team_data) < 1){
-            echo "<center><div class='not-available'>No team found!</div></center>";
-        }
-        ?>
+            <br><br>
             <div class="team-wrapper">
-                
-                <?php 
-                    for($j=0; $j<count($decoded_team_data); $j++){
-                ?>
+
+                <?php
+                for($j=0; $j<count($decoded_team_data); $j++){
+                    ?>
 
                     <div class="team-card">
                         <div class="avatar" style="background-image: url('<?php echo $GLOBALS["base_api"].$decoded_team_data[$j]["avatar"]["url"] ?>')">
@@ -149,12 +158,18 @@
 
                 <?php } ?>
 
-                
+
             </div>
 
-    </div>  
-    <br><br><br><br>
-</div>
+        </div>
+        <br><br><br><br>
+    </div>
+    <?php
+}
+?>
+
+
+
 
 <div class="light-bg">
     <?php include_once("pages/HomeComponents/homeContact.php") ?>

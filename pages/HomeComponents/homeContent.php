@@ -16,5 +16,7 @@
         </div>
     </div>
 </div>
-<?php include_once("pages/HomeComponents/homeContact.php") ?>
+<div id="contact-us">
+    <?php include_once("pages/HomeComponents/homeContact.php") ?>
+</div>
 <?php include_once("components/footer.php") ?>

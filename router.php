@@ -37,6 +37,18 @@ switch ($request) {
     case $GLOBALS['base_url'].'functions' :
         require $dir . '/pages/function.php';
         break;
+    case $GLOBALS['base_url'].'faq' :
+        require $dir . '/pages/faq.php';
+        break;
+    case $GLOBALS['base_url'].'terms' :
+        require $dir . '/pages/terms.php';
+        break;
+    case $GLOBALS['base_url'].'privacy' :
+        require $dir . '/pages/privacy.php';
+        break;
+    case $GLOBALS['base_url'].'quiz' :
+        require $dir . '/pages/quizes.php';
+        break;
     case $GLOBALS['base_url'].'template' :
         require $dir . '/pages/template.php';
         break;
@@ -76,6 +88,7 @@ switch ($request) {
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.min.js"></script>
 <script src="<?php echo $GLOBALS['base_url'].'assets/scripts/logics.js'?>"></script>
 <script>
     feather.replace()

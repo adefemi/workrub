@@ -16,7 +16,7 @@
     </p>
     <br>
     <div class="flex">
-        <a href="<?php echo $GLOBALS['base_url'].'functions'?>"><button class="primary button2" style="">Send a brief</button></a>
+        <a href="#contact-us" id="send_brief"><button class="primary button2" style="">Send a brief</button></a>
         <a href="<?php echo $GLOBALS['base_url'].'about-us'?>"><button class="primary button2 outline margin-left-20">Learn more</button></a>
     </div>
 </div>

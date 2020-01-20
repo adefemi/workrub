@@ -29,21 +29,21 @@
 
         <div class="footer-grid">
             <div class="footer-container">
-                <a href="#">
+                <a href="<?php echo $GLOBALS['base_url'].'faq'?>">
                     <div class="footer-heading">
                         FAQ
                     </div>
                 </a>
             </div>
             <div class="footer-container">
-                <a href="#">
+                <a href="<?php echo $GLOBALS['base_url'].'privacy'?>">
                     <div class="footer-heading">
                         Privacy Policy
                     </div>
                 </a>
             </div>
             <div class="footer-container">
-                <a href="#">
+                <a href="<?php echo $GLOBALS['base_url'].'terms'?>">
                     <div class="footer-heading">
                         Terms & Conditions
                     </div>

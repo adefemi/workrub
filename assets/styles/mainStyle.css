@@ -485,6 +485,7 @@ button, .button2 {
   font-weight: 500;
   outline: none !important;
   transition: 0.3s ease;
+  border: 2px solid #ff3333;
 }
 button.hidden, .button2.hidden {
   visibility: hidden;
@@ -495,7 +496,6 @@ button.primary, .button2.primary {
   color: white;
 }
 button.outline, .button2.outline {
-  border: 2px solid #ff3333;
   background-color: transparent;
   color: #ff3333;
 }
@@ -1285,7 +1285,7 @@ a {
 }
 .res-mid .res-bullet div {
   font-size: 20px;
-  font-weight: 300px;
+  font-weight: 300;
   color: gray;
 }
 .res-mid .res-bullet div:nth-child(2) {
@@ -1293,6 +1293,11 @@ a {
 }
 .res-mid .res-bullet img {
   width: 40px;
+}
+
+.res-max {
+  max-width: 1000px;
+  line-height: 30px;
 }
 
 .mobile, .mobile2 {
@@ -1698,6 +1703,29 @@ a {
 
 .career-con {
   min-height: 70vh;
+}
+
+.faq-con {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.faq-con .faq-quest {
+  padding: 20px;
+  background: white;
+}
+.faq-con .faq-ans {
+  padding: 20px;
+}
+
+.drop-faq {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.drop-faq.open {
+  transform: rotateZ(180deg);
 }
 
 /*# sourceMappingURL=mainStyle.css.map */

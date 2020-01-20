@@ -1,4 +1,4 @@
-const BASE_API = "http://206.189.23.13:1337";
+const BASE_API = "http://localhost:1337";
 const CONTACT_FORM_URL = BASE_API + "/contact-forms";
 const APPLICATION_FORM_URL = BASE_API + "/applications";
 const BOOKING_FORM_URL = BASE_API + "/bookings";
@@ -214,6 +214,29 @@ let notifierTimeOut = null;
     $(this).toggleClass("show-drop");
     $("#canpol").toggleClass("hidden2");
   })
+
+
+    // load content
+    let content = $('#term-content');
+    let md = window.markdownit();
+    let result = md.render(content.text());
+    content.html(result);
+
+    // load content
+    let p_content = $('#privacy-content');
+    let p_md = window.markdownit();
+    let p_result = p_md.render(p_content.text());
+    p_content.html(p_result);
+
+    $("#send_brief").click(function (e) {
+      e.preventDefault();
+      let hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = "";
+      });
+    })
 })();
 
 function toggler(id) {
@@ -224,4 +247,25 @@ function removeWithTime(content, class_name) {
   notifierTimeOut = setTimeout(() => {
     content.removeClass(class_name);
   }, 5000);
+}
+
+function faqToggle(e) {
+  let faqList = $('.faq-con');
+  for(let i =0; i < faqList.length; i++){
+    if(faqList[i] === e){
+      continue
+    }
+    let tempAns = $(faqList[i]).find('.faq-ans')
+    let tempArrow = $(faqList[i]).find('.drop-faq')
+    if(!tempAns.hasClass("hidden")){
+      tempAns.addClass("hidden")
+    }
+    if(tempArrow.hasClass("open")){
+      tempArrow.removeClass("open")
+    }
+  }
+  let ansEl = $(e).find('.faq-ans');
+  let arrowEl = $(e).find('.drop-faq');
+  ansEl.toggleClass("hidden");
+  arrowEl.toggleClass("open")
 }
