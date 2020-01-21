@@ -1737,12 +1737,20 @@ a {
   display: flex;
 }
 .quiz-card .avatar {
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-position: center;
   background-size: contain;
-  margin-right: 10px;
+  margin-right: 20px;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 480px) {
+  .quiz-card .avatar {
+    margin-right: 10px;
+  }
+}
+.quiz-card .content {
+  flex: 1;
 }
 
 /*# sourceMappingURL=mainStyle.css.map */
