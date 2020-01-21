@@ -535,7 +535,7 @@ button.load .loading, .button2.load .loading {
 }
 
 .not-available {
-  font-size: 24;
+  font-size: 24px;
   font-weight: 500;
   color: #b3b3b3;
 }
@@ -703,7 +703,7 @@ button.load .loading, .button2.load .loading {
   grid-gap: 3em;
 }
 .contact-wrapper button {
-  padding: 10px 20p;
+  padding: 10px 20px;
   font-size: 20px;
 }
 @media screen and (max-width: 480px) {
@@ -1726,6 +1726,22 @@ a {
 }
 .drop-faq.open {
   transform: rotateZ(180deg);
+}
+
+.quiz-card {
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+}
+.quiz-card .avatar {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: contain;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=mainStyle.css.map */

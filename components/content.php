@@ -56,6 +56,10 @@ $request = $_SERVER['REQUEST_URI'];
                         require_once 'pages/CareerComponents/singleCareerContent.php';
                         break;
                     }
+                    else if(preg_match_all('/quiz\/[a-z0-9-_+]*/', $request)){
+                        require_once 'pages/QuizesComponents/single_quiz.php';
+                        break;
+                    }
                     else if(preg_match_all('/career[a-z0-9-_+?=&]*/', $request)){
                         require_once 'pages/CareerComponents/careerContent.php';
                         break;

@@ -25,6 +25,7 @@
 	$GLOBALS["term"] = $GLOBALS["base_api"] . "/terms";
 	$GLOBALS["privacy"] = $GLOBALS["base_api"] . "/privacies";
 	$GLOBALS["quiz"] = $GLOBALS["base_api"] . "/quizzes";
+	$GLOBALS["quiz_content"] = $GLOBALS["base_api"] . "/quiz-contents";
 
 
 	$GLOBALS['base_url'] = "/";

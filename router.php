@@ -65,6 +65,10 @@ switch ($request) {
             require $dir . '/pages/singleCareer.php';
             break;
         }
+        else if(preg_match_all('/quiz\/[a-z0-9-_+]*/', $request)){
+            require $dir . '/pages/single_quiz.php';
+            break;
+        }
         
         else if(preg_match_all('/career[a-z0-9-_+?=&]*/', $request)){
             require $dir . '/pages/career.php';

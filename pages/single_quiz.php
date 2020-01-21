@@ -1,20 +1,21 @@
 <?php
 
-    // get setting data
-    $ch = curl_init($GLOBALS["quiz"]);
+    $url = $_SERVER['REQUEST_URI'];
+    $urlArray = explode("-", $url);
+    $slug = $urlArray[count($urlArray) - 1];
+
+
+
+    if(isset($slug)){
+        $adjusted_url = $GLOBALS["quiz_content"]."?id=".$slug;
+    }
+
+    $ch = curl_init($adjusted_url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     $data = curl_exec($ch);
     curl_close($ch);
     $decoded_data = json_decode($data, true)[0];
-
-
-    $ch = curl_init($GLOBALS["quiz_content"]);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    $data = curl_exec($ch);
-    curl_close($ch);
-    $decoded_quiz_data = json_decode($data, true);
 
 
 ?>

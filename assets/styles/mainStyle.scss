@@ -457,7 +457,7 @@ button, .button2 {
 }
 
 .not-available {
-  font-size: 24;
+  font-size: 24px;
   font-weight: 500;
   color: darken(white, 30%);
 }
@@ -634,7 +634,7 @@ button, .button2 {
   grid-gap: 3em;
 
   button {
-    padding: 10px 20p;
+    padding: 10px 20px;
     font-size: 20px;
   }
 
@@ -1775,5 +1775,21 @@ a {
 
   &.open{
     transform: rotateZ(180deg);
+  }
+}
+.quiz-card{
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(black, 0.1);
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 4px;
+
+  display: flex;
+  .avatar{
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
   }
 }
