@@ -1742,6 +1742,7 @@ a {
   background-position: center;
   background-size: contain;
   margin-right: 10px;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=mainStyle.css.map */
