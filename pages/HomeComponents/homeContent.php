@@ -1,4 +1,7 @@
-<?php include_once("pages/HomeComponents/homeTop.php") ?>
+<div class="home-cover" style="background-image: url('<?php echo $GLOBALS['base_url']."assets/images/workrub-cover.jpg"?>')">   
+    <?php include_once("pages/HomeComponents/homeTop.php") ?>
+</div>
+
 <?php include_once("pages/HomeComponents/homeAbout.php") ?>
 <?php include_once("pages/HomeComponents/homeBlog.php") ?>
 <div class="vertical-line desktop2"></div>

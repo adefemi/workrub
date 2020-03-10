@@ -1,5 +1,5 @@
 <?php 
-	$GLOBALS["base_api"] = "http://localhost:1337";
+	$GLOBALS["base_api"] = "http://206.189.23.13:1337";
 	$GLOBALS["contact_info"] = $GLOBALS["base_api"] . "/contact-infos";
 	$GLOBALS["home"] = $GLOBALS["base_api"] . "/homes";
 	$GLOBALS["home_content"] = $GLOBALS["base_api"] . "/home-contents";

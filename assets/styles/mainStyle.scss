@@ -15,6 +15,12 @@ li {
   margin: 0;
 }
 
+.home-cover {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -46,36 +52,36 @@ li {
   z-index: 10;
 }
 
-.comment-item{
+.comment-item {
   border: 1px solid darken(white, 10%);
   color: darken(white, 50%);
   padding: 10px;
   margin: 15px 0;
   box-sizing: border-box;
 
-  p{
+  p {
     margin-bottom: 10px;
     color: black;
   }
 }
 
-.contain-info{
+.contain-info {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 50px;
   margin-left: 50px;
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 480px) {
     margin-left: 0;
     margin-bottom: 0;
   }
-  h3{
+  h3 {
     font-size: 18px;
     color: darken(white, 50%);
     margin-bottom: 5px;
   }
-  p{
+  p {
     margin-bottom: 3px;
     font-size: 14px;
     color: darken(white, 50%);
@@ -103,8 +109,8 @@ li {
       color: darken($main_white, 40%);
     }
 
-    &.active{
-      a{
+    &.active {
+      a {
         color: darken($main_white, 90%);
       }
     }
@@ -121,8 +127,6 @@ li {
       display: none;
       padding: 20px 0;
 
-
-
       li {
         font-size: 17px;
         font-weight: 300;
@@ -132,16 +136,15 @@ li {
         padding-bottom: 5px;
         border-bottom: 1px solid darken($main_white, 5%);
       }
-      a{
+      a {
         &:last-child {
-          li{
+          li {
             margin-bottom: 0;
             padding-bottom: 0;
             border-bottom: none;
           }
         }
       }
-
 
       &:after {
         position: absolute;
@@ -180,7 +183,7 @@ li {
   padding-bottom: 40px;
   .dropdown {
     padding: 15px 10px;
-    background-color: #F02F2F;
+    background-color: #f02f2f;
     width: 100%;
     margin-top: 10px;
     display: none;
@@ -234,7 +237,7 @@ li {
     }
   }
 
-  .footer-grid{
+  .footer-grid {
     display: grid;
     flex: 1;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
@@ -242,7 +245,7 @@ li {
     max-width: 600px;
     min-width: 300px;
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 480px) {
       grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     }
   }
@@ -302,7 +305,6 @@ li {
       width: 120px;
     }
   }
-
 }
 
 .heading-main {
@@ -350,38 +352,39 @@ li {
   }
 }
 
-#book-info{
-  transition: .3s ease;
-  p{
+#book-info {
+  transition: 0.3s ease;
+  p {
     font-size: 16px;
     font-weight: 300;
   }
 
-  input, textarea{
+  input,
+  textarea {
     margin-bottom: 30px;
   }
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
 
-.ease{
-  transition: .3s ease;
+.ease {
+  transition: 0.3s ease;
 }
 
-.show-drop{
+.show-drop {
   transform: rotateX(180deg);
 }
 
-.hidden{
+.hidden {
   display: none;
   visibility: hidden;
   opacity: 0;
   height: 0 !important;
   width: 0 !important;
 }
-.hidden2{
+.hidden2 {
   display: none;
   visibility: hidden;
   opacity: 0;
@@ -389,7 +392,8 @@ li {
   width: 0 !important;
 }
 
-button, .button2 {
+button,
+.button2 {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -397,10 +401,10 @@ button, .button2 {
   font-size: 20px;
   font-weight: 500;
   outline: none !important;
-  transition: .3s ease;
+  transition: 0.3s ease;
   border: 2px solid $primary-color;
 
-  &.hidden{
+  &.hidden {
     visibility: hidden;
     opacity: 0;
   }
@@ -411,7 +415,6 @@ button, .button2 {
   }
 
   &.outline {
-
     background-color: transparent;
     color: $primary-color;
   }
@@ -432,7 +435,7 @@ button, .button2 {
   }
 }
 
-.button2{
+.button2 {
   padding: 5px 20px;
   font-size: 18px;
 }
@@ -470,7 +473,7 @@ button, .button2 {
   flex-direction: column;
   margin-bottom: 50px;
 
-  .img-con{
+  .img-con {
     height: 140px;
     width: 160px;
     background-color: transparent;
@@ -658,7 +661,7 @@ textarea {
 .about-main {
   background-color: $primary-color;
   &.darken {
-    background-color:#F02F2F;
+    background-color: #f02f2f;
   }
 }
 
@@ -671,8 +674,8 @@ textarea {
       color: white;
     }
   }
-  .drawer{
-    li{
+  .drawer {
+    li {
       a {
         color: black !important;
       }
@@ -693,7 +696,7 @@ textarea {
   text-align: center;
 
   h1 {
-    font-size: 3.0rem;
+    font-size: 3rem;
     font-weight: 600;
     color: white;
     margin-bottom: 20px;
@@ -710,7 +713,7 @@ textarea {
   }
 }
 
-.about-content.extend{
+.about-content.extend {
   max-width: 420px;
 }
 
@@ -874,7 +877,7 @@ h2 {
     color: darken(white, 55%);
   }
 
-  button{
+  button {
     padding: 8px 10px;
     font-size: 18px;
   }
@@ -1273,7 +1276,6 @@ a {
   }
 }
 
-
 .res-mid {
   padding: 4rem 20px;
   margin: 0 auto;
@@ -1304,12 +1306,13 @@ a {
   }
 }
 
-.res-max{
+.res-max {
   max-width: 1000px;
   line-height: 30px;
 }
 
-.mobile, .mobile2 {
+.mobile,
+.mobile2 {
   display: none;
 }
 
@@ -1590,15 +1593,13 @@ a {
 
 .fc-past {
   opacity: 0.2;
-  .fc-day-number{
+  .fc-day-number {
     color: #000000;
-
   }
 }
 
 .day-highlight {
-  background-color: rgba($primary_color, 0.3)!important;
-
+  background-color: rgba($primary_color, 0.3) !important;
 }
 
 .time-slots {
@@ -1609,14 +1610,13 @@ a {
 .time-main {
   visibility: visible;
   opacity: 1;
-  transition: .3s ease;
+  transition: 0.3s ease;
 
-  &.hidden{
+  &.hidden {
     visibility: hidden;
     opacity: 0;
   }
 }
-
 
 .time-card {
   max-width: 200px;
@@ -1642,17 +1642,17 @@ a {
   }
 }
 
-.book-text{
+.book-text {
   position: relative;
 
-  #edit-time{
+  #edit-time {
     position: absolute !important;
     right: -10px;
     bottom: 0;
   }
 }
 
-.cancellation-policy{
+.cancellation-policy {
   padding: 15px;
   border: 2px solid darken(white, 10%);
   color: darken(white, 40%);
@@ -1754,30 +1754,30 @@ a {
   min-height: 70vh;
 }
 
-.faq-con{
+.faq-con {
   box-shadow: 0 5px 20px rgba(black, 0.1);
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 20px;
   cursor: pointer;
-  .faq-quest{
+  .faq-quest {
     padding: 20px;
     background: white;
   }
-  .faq-ans{
+  .faq-ans {
     padding: 20px;
   }
 }
 
-.drop-faq{
+.drop-faq {
   cursor: pointer;
-  transition: .3s ease;
+  transition: 0.3s ease;
 
-  &.open{
+  &.open {
     transform: rotateZ(180deg);
   }
 }
-.quiz-card{
+.quiz-card {
   padding: 20px;
   box-shadow: 0 5px 20px rgba(black, 0.1);
   margin-bottom: 25px;
@@ -1785,7 +1785,7 @@ a {
   border-radius: 4px;
 
   display: flex;
-  .avatar{
+  .avatar {
     min-width: 80px;
     height: 80px;
     background-position: center;
@@ -1793,11 +1793,11 @@ a {
     margin-right: 20px;
     background-repeat: no-repeat;
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 480px) {
       margin-right: 10px;
     }
   }
-  .content{
+  .content {
     flex: 1;
   }
 }

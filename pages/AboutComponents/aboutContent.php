@@ -69,7 +69,7 @@ if(count($decoded_portfolio_data) > 0){
         <br><br>
         <div class="center-content">
             <div class="contact-heading">
-                Portfolio
+            Our esteemed clients
             </div>
             <p class="sub-heading">We're proud to have collaborated with these firms</p>
         </div>
