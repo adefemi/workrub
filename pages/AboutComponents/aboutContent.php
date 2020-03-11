@@ -46,7 +46,7 @@
         <div class="about-content">
             <h1><?php echo $decoded_about_data["headline"] ?></h1>
 
-            <p><?php echo $decoded_about_data["sub_headline"] ?></p>
+            <p id="about-content"><?php echo $decoded_about_data["sub_headline"] ?></p>
         </div>
     </div>
     <br><br><br><br>

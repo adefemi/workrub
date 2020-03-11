@@ -1,11 +1,11 @@
 <?php include_once("components/header.php") ?>
 <br><br><br>
-<div class="res-cover" style="background-image: url('<?php echo $decoded_data["cover"]["url"] ?>')">
+<!-- <div class="res-cover" style="background-image: url('<?php echo $decoded_data["cover"]["url"] ?>')">
     <div class="overlay"></div>
     <div class="container res-con">
         <?php echo $decoded_data["headline"] ?>
     </div>
-</div>
+</div> -->
 
 <div class="light-bg">
     <div class="container res-mid res-max">

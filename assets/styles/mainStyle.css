@@ -233,15 +233,15 @@ li {
 }
 
 .nav-right li a {
-  color: gray;
+  color: black;
 }
 
 .nav-right li svg {
-  color: #999999;
+  color: black;
 }
 
 .nav-right li.active a {
-  color: #1a1a1a;
+  color: black;
 }
 
 .nav-right li .dropdown {
@@ -2196,5 +2196,18 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+#about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=mainStyle.css.map */

@@ -102,16 +102,16 @@ li {
     font-weight: 600;
     position: relative;
     a {
-      color: darken($main_white, 50%);
+      color: black;
     }
 
     svg {
-      color: darken($main_white, 40%);
+      color: black;
     }
 
     &.active {
       a {
-        color: darken($main_white, 90%);
+        color: black;
       }
     }
 
@@ -1800,4 +1800,10 @@ a {
   .content {
     flex: 1;
   }
+}
+
+#about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

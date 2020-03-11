@@ -14,7 +14,7 @@
     <br><br><br>
     <div class="resource-container single">
         <div class="resource-main">
-            <h4 class="h-light">Current Openings</h4>
+            <h4 class="h-light">Job Roles</h4>
             <br><br>
             <?php 
                 if(count($decoded_opening_data) < 1){
@@ -33,8 +33,8 @@
 
                     <div class="career-card">
                         <h3><?php echo $decoded_opening_data[$j]["title"] ?></h3>
-                        <p><?php echo $decoded_opening_data[$j]["company_info"] ?></p>
-                        <h4><?php echo $decoded_opening_data[$j]["location"] ?></h4>
+                        <!-- <p><?php echo $decoded_opening_data[$j]["company_info"] ?></p> -->
+                        <!-- <h4><?php echo $decoded_opening_data[$j]["location"] ?></h4> -->
                         <a href="<?php echo "/career/".$decoded_opening_data[$j]["slug"] ?>">
                             <button class="primary">Apply Now</button>
                         </a>
@@ -47,10 +47,10 @@
             <!-- <input type="text" placeholder="Search" class="res-search">
             <br><br> -->
             <div class="resource-links single">
-                <h4>Categories</h4>
+                <h4>Industry</h4>
                 <a href="<?php echo $GLOBALS['base_url'].'career'?>"><li class="<?php
                     if(!isset($slug)) echo "active";
-                ?>">All Openings</li></a>
+                ?>">All</li></a>
                 <?php 
                 for($j=0; $j<count($decoded_opening_category_data); $j++){
                 ?>
